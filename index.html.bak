@@ -27,7 +27,7 @@
         <li><a href="#pricing">الأسعار</a></li>
         <li><a href="#contact">اتصل بنا</a></li>
       </ul>
-      <a class="cta-whatsapp" href="https://wa.me/966534774309" target="_blank" rel="noopener">
+      <a class="cta-whatsapp" href="https://wa.me/966500000000" target="_blank" rel="noopener">
         <i class="fa-brands fa-whatsapp"></i>
         واتساب
       </a>
@@ -51,7 +51,7 @@
                 stroke-linejoin="round" />
             </svg>
           </a>
-          <a class="btn btn-secondary" href="tel:+966534774309">
+          <a class="btn btn-secondary" href="tel:+966123456789">
             <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
               <path
                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
@@ -89,7 +89,158 @@
       <div class="hero-visual">
         <div class="truck-card">
           <div class="truck-img">
-            <img src="images/truck.png" alt="شاحنة نقل الهادي" />
+            <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="شاحنة نقل الهادي">
+              <defs>
+                <!-- Enhanced gradients for 3D effect -->
+                <linearGradient id="skyGradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#e8f4fd" />
+                  <stop offset="0.5" stop-color="#f0f9ff" />
+                  <stop offset="1" stop-color="#d1e7dd" />
+                </linearGradient>
+
+                <linearGradient id="truckBodyGradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#ffffff" />
+                  <stop offset="0.3" stop-color="#f8fafc" />
+                  <stop offset="0.7" stop-color="#e2e8f0" />
+                  <stop offset="1" stop-color="#cbd5e1" />
+                </linearGradient>
+
+                <linearGradient id="cabGradient" x1="0" x2="1" y1="0" y2="0">
+                  <stop offset="0" stop-color="#0d7a36" />
+                  <stop offset="0.5" stop-color="#0A642B" />
+                  <stop offset="1" stop-color="#084d21" />
+                </linearGradient>
+
+                <linearGradient id="wheelGradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#1a1f2e" />
+                  <stop offset="0.5" stop-color="#2c3e50" />
+                  <stop offset="1" stop-color="#1a1f2e" />
+                </linearGradient>
+
+                <linearGradient id="rimGradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0" stop-color="#c0c5ce" />
+                  <stop offset="0.5" stop-color="#95a5a6" />
+                  <stop offset="1" stop-color="#7f8c8d" />
+                </linearGradient>
+
+                <radialGradient id="glassGradient">
+                  <stop offset="0" stop-color="#e0f2fe" stop-opacity="0.9" />
+                  <stop offset="0.7" stop-color="#bae6fd" stop-opacity="0.7" />
+                  <stop offset="1" stop-color="#7dd3fc" stop-opacity="0.5" />
+                </radialGradient>
+
+                <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                  <feDropShadow dx="3" dy="6" stdDeviation="4" flood-color="rgba(0,0,0,0.2)" />
+                </filter>
+
+                <filter id="lightShadow" x="-50%" y="-50%" width="200%" height="200%">
+                  <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.1)" />
+                </filter>
+              </defs>
+
+              <!-- Background sky -->
+              <rect width="100%" height="100%" fill="url(#skyGradient)" />
+
+              <!-- Cloud decorations -->
+              <ellipse cx="100" cy="80" rx="40" ry="20" fill="#ffffff" opacity="0.6" />
+              <ellipse cx="120" cy="75" rx="35" ry="18" fill="#ffffff" opacity="0.5" />
+              <ellipse cx="500" cy="60" rx="50" ry="25" fill="#ffffff" opacity="0.4" />
+              <ellipse cx="530" cy="55" rx="40" ry="20" fill="#ffffff" opacity="0.3" />
+
+              <!-- Road with perspective -->
+              <rect y="270" width="640" height="50" fill="#5a6268" />
+              <rect y="270" width="640" height="3" fill="#6c757d" />
+
+              <!-- Road markings -->
+              <rect y="293" x="50" width="80" height="4" rx="2" fill="#fbbf24" opacity="0.8" />
+              <rect y="293" x="180" width="80" height="4" rx="2" fill="#fbbf24" opacity="0.8" />
+              <rect y="293" x="310" width="80" height="4" rx="2" fill="#fbbf24" opacity="0.8" />
+              <rect y="293" x="440" width="80" height="4" rx="2" fill="#fbbf24" opacity="0.8" />
+
+              <!-- Enhanced truck shadow -->
+              <ellipse cx="310" cy="298" rx="200" ry="18" fill="rgba(0,0,0,0.15)" />
+
+              <!-- Main truck container body -->
+              <rect x="235" y="125" width="270" height="115" rx="14" fill="url(#truckBodyGradient)" stroke="#cbd5e1"
+                stroke-width="2.5" filter="url(#shadow)" />
+
+              <!-- Body accent panels -->
+              <rect x="245" y="135" width="250" height="35" rx="8" fill="#f1f5f9" opacity="0.6" />
+              <line x1="370" y1="135" x2="370" y2="230" stroke="#cbd5e1" stroke-width="2" />
+
+              <!-- Side details -->
+              <rect x="250" y="200" width="70" height="4" rx="2" fill="#0A642B" opacity="0.2" />
+              <rect x="330" y="200" width="50" height="4" rx="2" fill="#0A642B" opacity="0.2" />
+              <rect x="390" y="200" width="100" height="4" rx="2" fill="#0A642B" opacity="0.2" />
+
+              <!-- Premium Cab with 3D effect -->
+              <path d="M180 240 L180 175 L140 130 L105 130 L105 175 L105 240 Z" fill="url(#cabGradient)"
+                stroke="#084d21" stroke-width="2.5" filter="url(#shadow)" />
+
+              <!-- Cab highlight -->
+              <path d="M180 240 L180 180 L145 140 L120 140 L120 180 L120 240" fill="rgba(255,255,255,0.1)" />
+
+              <!-- Windshield with realistic glass effect -->
+              <path d="M155 150 L175 170 L175 210 L155 210 Z" fill="url(#glassGradient)" stroke="#64748b"
+                stroke-width="1.5" filter="url(#lightShadow)" />
+
+              <!-- Window reflection -->
+              <path d="M160 155 L170 165 L170 180 L160 175 Z" fill="rgba(255,255,255,0.3)" />
+
+              <!-- Side window -->
+              <rect x="115" y="160" width="35" height="40" rx="6" fill="url(#glassGradient)" stroke="#64748b"
+                stroke-width="1.5" />
+
+              <!-- Chrome bumper and details -->
+              <rect x="100" y="235" width="8" height="15" rx="2" fill="#c0c5ce" />
+              <rect x="505" y="220" width="10" height="25" rx="3" fill="#cbd5e1" />
+
+              <!-- Company branding panel -->
+              <rect x="280" y="150" width="95" height="60" rx="10" fill="#0A642B" filter="url(#lightShadow)" />
+              <rect x="285" y="155" width="85" height="50" rx="8" fill="rgba(244, 202, 62, 0.1)" stroke="#F4CA3E"
+                stroke-width="1.5" />
+              <text x="327" y="188" text-anchor="middle" font-family="Tajawal, Arial" font-size="22" font-weight="bold"
+                fill="#F4CA3E">الهادي</text>
+
+              <!-- Premium wheels with realistic 3D effect -->
+              <!-- Front wheel -->
+              <circle cx="145" cy="262" r="30" fill="url(#wheelGradient)" filter="url(#shadow)" />
+              <circle cx="145" cy="262" r="22" fill="#1a1f2e" />
+              <circle cx="145" cy="262" r="15" fill="url(#rimGradient)" />
+              <circle cx="145" cy="262" r="8" fill="#34495e" />
+              <circle cx="145" cy="262" r="4" fill="#7f8c8d" />
+              <!-- Wheel spokes -->
+              <line x1="145" y1="247" x2="145" y2="277" stroke="#5a6268" stroke-width="2" />
+              <line x1="130" y1="262" x2="160" y2="262" stroke="#5a6268" stroke-width="2" />
+
+              <!-- Middle wheel -->
+              <circle cx="275" cy="262" r="32" fill="url(#wheelGradient)" filter="url(#shadow)" />
+              <circle cx="275" cy="262" r="24" fill="#1a1f2e" />
+              <circle cx="275" cy="262" r="16" fill="url(#rimGradient)" />
+              <circle cx="275" cy="262" r="9" fill="#34495e" />
+              <circle cx="275" cy="262" r="5" fill="#7f8c8d" />
+              <!-- Wheel spokes -->
+              <line x1="275" y1="246" x2="275" y2="278" stroke="#5a6268" stroke-width="2.5" />
+              <line x1="259" y1="262" x2="291" y2="262" stroke="#5a6268" stroke-width="2.5" />
+
+              <!-- Back wheel -->
+              <circle cx="445" cy="262" r="32" fill="url(#wheelGradient)" filter="url(#shadow)" />
+              <circle cx="445" cy="262" r="24" fill="#1a1f2e" />
+              <circle cx="445" cy="262" r="16" fill="url(#rimGradient)" />
+              <circle cx="445" cy="262" r="9" fill="#34495e" />
+              <circle cx="445" cy="262" r="5" fill="#7f8c8d" />
+              <!-- Wheel spokes -->
+              <line x1="445" y1="246" x2="445" y2="278" stroke="#5a6268" stroke-width="2.5" />
+              <line x1="429" y1="262" x2="461" y2="262" stroke="#5a6268" stroke-width="2.5" />
+
+              <!-- Headlights -->
+              <circle cx="100" cy="195" r="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+              <circle cx="100" cy="195" r="4" fill="#fde68a" />
+
+              <!-- Tail lights -->
+              <rect x="500" y="190" width="12" height="25" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" />
+              <rect x="502" y="195" width="8" height="8" rx="2" fill="#fca5a5" />
+            </svg>
           </div>
 
           <!-- Floating elements for visual appeal -->
@@ -333,13 +484,12 @@
       </form>
 
       <div class="card">
-        <div class="info-item"><i class="fa-solid fa-phone"></i><span dir="ltr">0534774309</span></div>
-        <div class="info-item"><i class="fa-solid fa-phone"></i><span dir="ltr">00966557018990</span></div>
+        <div class="info-item"><i class="fa-solid fa-phone"></i><span>+966 50 000 0000</span></div>
         <div class="info-item"><i class="fa-solid fa-envelope"></i><span>info@alhadi.sa</span></div>
         <div class="info-item"><i class="fa-solid fa-location-dot"></i><span>الرياض، المملكة العربية السعودية</span>
         </div>
         <div class="social" style="margin-top:12px">
-          <a href="https://wa.me/966534774309" target="_blank" aria-label="واتساب"><i
+          <a href="https://wa.me/966500000000" target="_blank" aria-label="واتساب"><i
               class="fa-brands fa-whatsapp"></i></a>
           <a href="https://facebook.com/" target="_blank" aria-label="فيسبوك"><i
               class="fa-brands fa-facebook-f"></i></a>
@@ -371,10 +521,10 @@
       </div>
       <div>
         <h4 style="margin-bottom:8px">تواصل</h4>
-        <p class="muted" dir="ltr">0534774309 / 00966557018990</p>
+        <p class="muted">الهاتف: +966 50 000 0000</p>
         <p class="muted">البريد: info@alhadi.sa</p>
         <div class="social" style="margin-top:10px">
-          <a href="https://wa.me/966534774309" target="_blank" aria-label="واتساب"><i
+          <a href="https://wa.me/966500000000" target="_blank" aria-label="واتساب"><i
               class="fa-brands fa-whatsapp"></i></a>
           <a href="https://facebook.com/" target="_blank" aria-label="فيسبوك"><i
               class="fa-brands fa-facebook-f"></i></a>
